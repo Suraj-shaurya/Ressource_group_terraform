@@ -31,7 +31,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-          working-directory: ./DEV
+          working-directory: ./
     steps:
       - name: Checkout
         uses: actions/checkout@v7.0.0
