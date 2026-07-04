@@ -24,7 +24,6 @@ env:
   ARM_USE_OIDC: true
 
 jobs:
-
   terraform_scan:
     name: Terraform scan
 
