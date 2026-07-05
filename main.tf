@@ -13,7 +13,6 @@ provider "azurerm" {
   
 }
 
-
 resource "azurerm_resource_group" "practise_rg" {
   name = "rg-pra"
   location = "east us"
